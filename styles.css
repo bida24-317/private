@@ -9,16 +9,17 @@ body {
 
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
+    color: #4A148C; /* Deep Purple */
 }
 
 a {
     text-decoration: none;
-    color: #333;
+    color: #4A148C; /* Deep Purple */
 }
 
 /* Header and Navigation */
 header {
-    background-color: #4CAF50;
+    background-color: #6A1B9A; /* Dark Purple */
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -44,6 +45,10 @@ nav {
     font-weight: bold;
 }
 
+.nav-links a:hover {
+    color: #E1BEE7; /* Light Purple for hover effect */
+}
+
 /* Hero Section */
 .hero {
     background: url('church-hero.jpg') no-repeat center center/cover;
@@ -58,19 +63,26 @@ nav {
 .hero-content h2 {
     font-size: 3rem;
     margin-bottom: 20px;
+    color: #E1BEE7; /* Light Purple */
 }
 
 .hero-content p {
     font-size: 1.5rem;
     margin-bottom: 30px;
+    color: #E1BEE7; /* Light Purple */
 }
 
 .cta-button {
-    background-color: #4CAF50;
+    background-color: #9C27B0; /* Medium Purple */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #7B1FA2; /* Darker Purple for hover effect */
 }
 
 /* About Section */
@@ -83,24 +95,27 @@ nav {
 .about-content h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #6A1B9A; /* Dark Purple */
 }
 
 .about-content p {
     font-size: 1.2rem;
     max-width: 800px;
     margin: 0 auto;
+    color: #333;
 }
 
 /* Services Section */
 .services {
     padding: 50px 20px;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #EDE7F6; /* Light Purple Background */
 }
 
 .services h2 {
     font-size: 2.5rem;
     margin-bottom: 40px;
+    color: #6A1B9A; /* Dark Purple */
 }
 
 .service-cards {
@@ -116,20 +131,28 @@ nav {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 30%;
     margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .card h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    color: #6A1B9A; /* Dark Purple */
 }
 
 .card p {
     font-size: 1rem;
+    color: #333;
 }
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #4A148C; /* Deep Purple */
     color: white;
     padding: 20px;
     text-align: center;
@@ -149,6 +172,11 @@ footer {
     color: white;
     margin: 0 10px;
     font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #E1BEE7; /* Light Purple for hover effect */
 }
 
 /* Responsive Design */
